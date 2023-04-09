@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime>
+#include "Header.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ void menu();
 int main()
 {
     menu();
+    A a;
     int menuNum;
     cin >> menuNum;
     while (menuNum) {
